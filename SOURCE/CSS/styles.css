@@ -1,0 +1,129 @@
+@media only screen and (max-width: 500px) {  
+  .top-navigation {
+  	display: none;
+  }
+  .page_wrap { 
+    padding-left: 215px; 
+  }
+}
+
+@media only screen and (min-width: 1000px) {  
+  .page_wrap { 
+    padding-left: 215px; 
+  }
+}
+
+
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  max-width: 100%;
+  color: #222222 padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 2rem;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.footer-section {
+  text-align: center;
+  color: #fff;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://thetexasbucketlist.com/wp-content/gallery/background/texas-desert-landscape-desert-brown-1600x1200.jpg');
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-top: .5em solid black;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 2em;
+  color: #fff;
+  margin-top: -0.2em;
+}
+
+.masthead-heading {
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px #000;
+}
+
+.top-navigation {
+	background-color: #000;
+  padding: 1em;
+  text-align: center;
+}
+
+
+.location,
+.introduction,
+.questions,
+.projects {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions {
+	padding-bottom: 3em;
+}
+
+.questions > h2 {
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.projects {
+  text-align: center;
+  padding: 2rem;
+}
+
+.projects div {
+  display: inline-block;
+}
+
+.projects div p {
+  font-weight: 500;
+}
+
+.social div {
+  display: inline-block;
+}
+
+.footer-section > p {
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-section {
+	background-color: #000;
+  padding: 3rem;
+  max-width: 100%;
+	margin: 0;
+}
